@@ -1,0 +1,37 @@
+# Archivos locales de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de estado de Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Archivos de crash log
+crash.log
+crash.*.log
+
+# Archivos que pueden contener información sensible
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de configuración CLI
+.terraformrc
+terraform.rc
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Directorios del sistema
+.DS_Store
+Thumbs.db
