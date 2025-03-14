@@ -7,10 +7,6 @@
 *.tfstate.*
 *.tfplan
 
-# Archivos de crash log
-crash.log
-crash.*.log
-
 # Archivos que pueden contener información sensible
 *.tfvars
 *.tfvars.json
