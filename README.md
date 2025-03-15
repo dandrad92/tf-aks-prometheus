@@ -106,6 +106,8 @@ terraform plan
 ```bash
 terraform apply
 ```
+![imagen](https://github.com/user-attachments/assets/b975bf1e-5ff7-46a3-abf0-620b393933b9)
+
 
 Este proceso tardará aproximadamente 5-10 minutos en completarse.
 
@@ -122,6 +124,8 @@ az aks get-credentials --resource-group AKS-ResourceGroup --name AKS-Cluster
 ```bash
 kubectl get pods -n monitoring
 ```
+![imagen](https://github.com/user-attachments/assets/068f3509-8ede-469b-a1f7-22535cf4e6a8)
+
 
 ### 2. Configurar acceso a Grafana mediante port-forwarding
 
