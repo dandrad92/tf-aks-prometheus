@@ -1,0 +1,31 @@
+# Copia este archivo a terraform.tfvars y completa con tus valores
+# NO subas terraform.tfvars a GitHub
+
+# ID de suscripción de Azure (requerido)
+subscription_id = "00000000-0000-0000-0000-000000000000"
+
+# Información del grupo de recursos y ubicación
+resource_group_name = "AKS-ResourceGroup"
+location = "eastus"
+
+# Configuración del clúster AKS
+cluster_name = "AKS-Monitor-Cluster"
+dns_prefix = "aks-monitor"
+node_count = 2
+vm_size = "Standard_DS2_v2"
+
+# Azure AD (opcional)
+admin_group_object_ids = []
+
+# Configuración de Grafana
+grafana_admin_password = "ChangeMe123!"  # Usa una contraseña segura
+grafana_ingress_enabled = false
+grafana_ingress_host = "grafana.example.com"
+
+# Etiquetas
+tags = {
+  Environment = "Development"
+  ManagedBy = "Terraform"
+  Project = "AKS-Monitoring"
+  Owner = "DevOps"
+}

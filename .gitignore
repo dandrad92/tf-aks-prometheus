@@ -31,3 +31,14 @@ terraform.rc
 # Directorios del sistema
 .DS_Store
 Thumbs.db
+
+# Archivos de kubectl
+kubeconfig
+
+# Binarios y archivos de instalación
+*.exe
+*.zip
+helm-*/
+
+# Archivos temporales de Terraform
+tfplan

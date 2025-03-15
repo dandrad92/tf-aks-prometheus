@@ -1,0 +1,7 @@
+# Copia este archivo a backend.tfvars y actualiza con tus valores
+# NO subas backend.tfvars a GitHub
+
+resource_group_name  = "TerraformState"
+storage_account_name = "tfstateaksmonitoring"  # Debe ser único globalmente
+container_name       = "tfstate"
+key                  = "aks-monitoring.terraform.tfstate"
