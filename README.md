@@ -151,16 +151,30 @@ Abre http://localhost:3000 en tu navegador y usa:
 - Usuario: `admin`
 - Contraseña: (la obtenida del comando anterior)
 
+![imagen](https://github.com/user-attachments/assets/f3c5f368-47d0-470c-8883-3a3866410e2d)
+
+
 ## Dashboards importantes
 
 Grafana incluye varios dashboards predefinidos como parte del helm chart de kube-prometheus-stack:
 
 1. **Node Exporter / Nodes**: Métricas detalladas de recursos de los nodos (CPU, memoria, red, disco)
+ ![imagen](https://github.com/user-attachments/assets/eec3dc67-bf08-45cd-8a25-7c5af7951783)
+
 2. **Kubernetes / Compute Resources / Namespace (Pods)**: Uso de recursos por pods en cada namespace
+ ![imagen](https://github.com/user-attachments/assets/3f4fda77-20ae-4df5-ac80-74cda74c2fc7)
+
 3. **Kubernetes / Compute Resources / Cluster**: Visión general del uso de recursos del clúster
+ ![imagen](https://github.com/user-attachments/assets/d4d6b950-a921-4198-b992-68d953e40351)
+
 4. **Kubernetes / Compute Resources / Namespace (Workloads)**: Métricas por tipo de workload
+![imagen](https://github.com/user-attachments/assets/516a2438-cd07-4482-b05c-ab56b3fb97c1)
+
 
 Para encontrar estos dashboards, navega a Dashboards → Browse.
+
+![imagen](https://github.com/user-attachments/assets/a7c6e051-c941-4fa4-9d34-4c1cdc99d499)
+
 
 ## Personalización
 
